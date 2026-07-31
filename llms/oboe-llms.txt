@@ -1,0 +1,18 @@
+# Oboe
+
+> Oboe is an AI-powered learning platform — "AI that won't make you stupid" — whose mission is to teach one billion people one trillion things. Anyone can learn virtually any subject through a conversational interface that generates personalized, on-demand courses and lessons. Founded in New York and backed by Homebrew, Oboe is building what it calls the world's first completely generalized AI-powered learning platform. As a consumer web application it does not currently publish a public developer API, SDKs, or developer documentation.
+
+## Product
+- [Oboe — Learn anything](https://oboe.com/): Conversational AI that generates magical courses made just for you.
+- [Blog](https://oboe.com/blog): Company and product updates.
+- [FAQ](https://oboe.com/faq): Frequently asked questions.
+- [Careers](https://oboe.com/careers): Open roles (New York, in-person).
+
+## Legal
+- [Terms of Service](https://oboe.com/tos)
+- [Privacy Policy](https://oboe.com/privacy)
+
+## Notes
+- No public developer API, OpenAPI/Swagger spec, SDKs, CLI, MCP server, or /.well-known/ discovery surface was found as of 2026-07-20.
+- api.oboe.com serves only an XML sitemap index for public course pages (SEO), not a documented API.
+- Backed by: Homebrew.

@@ -1,7 +1,28 @@
 aid: oboe
 name: Oboe
-description: 'Oboe is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Oboe is an AI-powered learning platform whose mission is to teach one billion
+  people one trillion things. Positioned as "AI that won't make you stupid," it
+  lets anyone learn virtually any subject through a conversational interface that
+  generates personalized, on-demand courses and lessons ("magical courses made
+  just for you"). Founded in New York and backed by Homebrew, Oboe is building
+  what it calls the world's first completely generalized AI-powered learning
+  platform, focused on making humans smarter rather than only making machines
+  smarter. As a consumer web application, Oboe does not currently publish a public
+  developer API, SDKs, or developer documentation; api.oboe.com serves only an XML
+  sitemap index for public course pages.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://oboe.com/assets/oboe-logo-opengraph.png
 url: https://raw.githubusercontent.com/api-evangelist/oboe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Education
+- Learning
+- Artificial Intelligence
+- EdTech
+- Generative AI
+- Consumer
+- Courses
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +50,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://oboe.fyi
+  url: https://oboe.com
+- type: Blog
+  url: https://oboe.com/blog
+- type: Support
+  url: https://oboe.com/faq
+- type: TermsOfService
+  url: https://oboe.com/tos
+- type: PrivacyPolicy
+  url: https://oboe.com/privacy
+- type: DomainSecurity
+  url: security/oboe-domain-security.yml
+- type: LLMsTxt
+  url: llms/oboe-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
